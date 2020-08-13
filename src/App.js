@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './components/Card';
+import { Card } from './components/3d-card';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledCard = styled.div`
+export const StyledCard = styled.div`
   width: 45ch;
   height: 45ch;
   background: grey;
@@ -19,5 +19,3 @@ const StyledCard = styled.div`
     z-index: 10;
   }
 `;
-
-export default StyledCard;

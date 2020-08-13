@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import StyledCard from './Card.styled';
+import { StyledCard } from './Card.styled';
 import { animated, useSpring } from 'react-spring';
 
 const AnimatedCard = animated(StyledCard);
 
-const Card = ({ url }) => {
+export const Card = ({ url }) => {
   const ref = useRef();
 
   const [props, set] = useSpring(() => ({
@@ -35,5 +35,3 @@ const Card = ({ url }) => {
     </AnimatedCard>
   );
 };
-
-export default Card;
